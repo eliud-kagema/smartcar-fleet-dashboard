@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "@clerk/clerk-react": "^5.18.2",
+    "@reduxjs/toolkit": "^2.4.0",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
     "cra-template": "1.2.0",
     "postcss": "^8.4.49",
     "prop-types": "^15.8.1",
