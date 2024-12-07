@@ -3,6 +3,12 @@ import rootReducer from './reducers';
 
 const store = configureStore({
   reducer: rootReducer,
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+      serializableCheck: false,  // Disable serializable check
+    }),
 });
+
+console.log('Redux store initialized:', store.getState());
 
 export default store;

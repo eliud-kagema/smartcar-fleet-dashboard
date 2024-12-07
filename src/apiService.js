@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://api.smartcar.com/v1';
-const API_TOKEN = 'Y1fce94e7-4342-477a-b284-6052fae2f88a';
+const API_BASE_URL = '/api/v1';
+const API_TOKEN = 'YOUR_SMARTCAR_API_TOKEN';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
