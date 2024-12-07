@@ -7,7 +7,7 @@ import Login from './components/Login';
 const App = () => {
   console.log('App component rendered');
   return (
-    <Router>
+    <Router basename="/smartcar-fleet-dashboard"> {/* Set the base path */}
       <Routes>
         <Route
           path="/login"
