@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/smartcar-fleet-dashboard/static/css/main.0cceb11f.css",
-    "main.js": "/smartcar-fleet-dashboard/static/js/main.a17adf4d.js",
+    "main.js": "/smartcar-fleet-dashboard/static/js/main.16b2f6be.js",
     "index.html": "/smartcar-fleet-dashboard/index.html",
     "main.0cceb11f.css.map": "/smartcar-fleet-dashboard/static/css/main.0cceb11f.css.map",
-    "main.a17adf4d.js.map": "/smartcar-fleet-dashboard/static/js/main.a17adf4d.js.map"
+    "main.16b2f6be.js.map": "/smartcar-fleet-dashboard/static/js/main.16b2f6be.js.map"
   },
   "entrypoints": [
     "static/css/main.0cceb11f.css",
-    "static/js/main.a17adf4d.js"
+    "static/js/main.16b2f6be.js"
   ]
 }
