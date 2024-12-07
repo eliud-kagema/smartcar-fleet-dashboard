@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/smartcar-fleet-dashboard/:path*", "destination": "/" }
+    ]
+  }
+  
