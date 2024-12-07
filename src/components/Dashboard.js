@@ -2,10 +2,11 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useClerk } from '@clerk/clerk-react';
 import { setUser } from '../actions';
-import { Link } from 'react-router-dom'; // For internal navigation
+import { Link, useNavigate } from 'react-router-dom'; // Added useNavigate for navigation
 
 const Dashboard = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate(); // Initialize useNavigate hook
   const { user, signOut } = useClerk();
 
   useEffect(() => {
@@ -16,6 +17,7 @@ const Dashboard = () => {
 
   const handleLogout = () => {
     signOut(); // Trigger logout using Clerk's signOut method
+    navigate('/sign-in'); // Redirect to sign-in page after logging out
   };
 
   return (
