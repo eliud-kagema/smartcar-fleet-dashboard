@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smartcar-fleet-dashboard/static/css/main.0cceb11f.css",
+    "main.js": "/smartcar-fleet-dashboard/static/js/main.a17adf4d.js",
+    "index.html": "/smartcar-fleet-dashboard/index.html",
+    "main.0cceb11f.css.map": "/smartcar-fleet-dashboard/static/css/main.0cceb11f.css.map",
+    "main.a17adf4d.js.map": "/smartcar-fleet-dashboard/static/js/main.a17adf4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cceb11f.css",
+    "static/js/main.a17adf4d.js"
+  ]
+}
